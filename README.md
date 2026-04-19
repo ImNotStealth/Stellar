@@ -8,7 +8,7 @@ What I like to call a "SFML game framework" but most of my colleagues called it 
 # Games
 This was the framework used in 3 of our school game projects, 2 of which are available for download if you're interested:
 - Niva: 2D die-and-retry platformer: [Steam](https://store.steampowered.com/app/3258800/Niva/) or [Creajeux](https://www.creajeux.fr/projet/niva/)
-  - *When this game was made, it had to be made in C, so the first version of Stellar was actually made in C! It was more of a UI library back then though.*
+  - *When we made this game, we hadn't learned C++ yet, so the first version of Stellar was actually written in C! It was more of a UI library back then though.*
 <div align="center">
     <img src="/docs/Niva.png" width="75%" height="75%" alt="Niva"/>
 </div>
@@ -23,7 +23,7 @@ This was the framework used in 3 of our school game projects, 2 of which are ava
     <img src="/docs/Godbreak.png" width="75%" height="75%" alt="Godbreak"/>
 </div>
 
-*(Creajeux is my school's website, they post our games there too!)*
+*(Creajeux is the school I'm attending, they post our games there too!)*
 
 # Content
 So! Let's talk about what the framework actually has:
