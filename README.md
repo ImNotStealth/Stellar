@@ -52,15 +52,12 @@ So! Let's talk about what the framework actually has:
 - Easings (implementation of [Easings](https://easings.net))
 - Spritesheet Animations
 
-# Setup
+# Getting started
 You should be able to just clone this template, open the solution and hit compile.
 Every asset in the `Debug/Assets` folder will be copied to `Release/Assets` if you're running in Release mode.
-The elephant in the room here is the fact that there's no build system and to be honest I'm still learning CMake and I can't get it working without having to regenerate the solution everytime I add a file so I rather not use it for now.
-Also I'm planning on sharing this with people at my school that may use this so I don't want to share something that isn't straightfoward or has unnecessary kinks.
 
-# How to use
-//TODO
- 
+To start using the framework, you can look in the `docs` folder, I've provided a few samples on the important things to get you going!
+
 # Things to improve
 A few things can be improved I think, nothing that can stop you from making a game though.
 
@@ -71,3 +68,6 @@ I already have an idea on how to manage this but I'm torn on if I should leave t
 
 GameStates have a small oversight which depending on how you use them could be quite annoying. You can only have one active at a time, it would've been better to use a stack of sorts where events propagate through them so you could have a debug layer, a UI layer, game layer etc.
 Again the framework was made when only one GameState was ever needed so this was never required.
+
+Another thing I'd like to improve is to add a build system and to be honest I'm still learning CMake and I can't get it working without having to regenerate the solution everytime I add a file so I rather not use it for now.
+Also I'm planning on sharing this with people at my school that may use this so I don't want to share something that isn't straightfoward or has unnecessary kinks.
