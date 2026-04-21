@@ -328,7 +328,7 @@ namespace Stellar {
 			ImGui::Text(titleText);
 			ImGui::PopFont();
 
-			const std::string aboutText = std::format("Version: {}\nPlatform: Windows\n\nMade with <3\nCopyright Stellar Vault Studios. All rights reserved.", STELLAR_VER);
+			const std::string aboutText = std::format("Version: {}\n\nMade with <3\nhttps://github.com/ImNotStealth/Stellar", STELLAR_VER);
 			ImGui::Text(aboutText.c_str());
 
 			ImVec2 buttonSize = ImVec2(120, 0);

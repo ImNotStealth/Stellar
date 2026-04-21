@@ -1,4 +1,4 @@
-#ifndef STELLAR_TOOL_CONTROLLER_INPUT_H
+﻿#ifndef STELLAR_TOOL_CONTROLLER_INPUT_H
 #define STELLAR_TOOL_CONTROLLER_INPUT_H
 
 #include "Stellar/Debug/DebugTool.h"
@@ -21,6 +21,9 @@ namespace Stellar
 		void DrawStick(ImVec2 _pos, float _radius, ControllerAxis _axisH, ControllerAxis _axisV, ControllerButton _stickButton);
 		void DrawDPad(ImVec2 _pos, float _scale);
 		void DrawTrigger(ImVec2 _pos, float _scale, ControllerAxis _axis);
+
+	private:
+		unsigned int controllerSlot = 0;
 	};
 }
 
