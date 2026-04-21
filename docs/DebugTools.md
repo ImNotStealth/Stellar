@@ -21,8 +21,7 @@ public:
     ToolTest()
         : DebugTool("Test Tool") {}
 
-    void UpdateImGui(float _deltaTime)
-override;
+    void UpdateImGui(float _deltaTime) override;
 };
 
 #endif

@@ -10,17 +10,17 @@ This was the framework used in 3 of our school game projects, 2 of which are ava
 - Niva: 2D die-and-retry platformer: [Steam](https://store.steampowered.com/app/3258800/Niva/) or [Creajeux](https://www.creajeux.fr/projet/niva/)
   - *When we made this game, we hadn't learned C++ yet, so the first version of Stellar was actually written in C! It was more of a UI library back then though.*
 <div align="center">
-    <img src="/docs/Niva.png" width="75%" height="75%" alt="Niva"/>
+    <img src="/docs/imgs/Niva.png" width="75%" height="75%" alt="Niva"/>
 </div>
 
 - Hexatak: An online multiplayer isometrical tactical board game (sheesh that's a lot of adjectives...)
 <div align="center">
-    <img src="/docs/Hexatak.png" width="75%" height="75%" alt="Hexatak"/>
+    <img src="/docs/imgs/Hexatak.png" width="75%" height="75%" alt="Hexatak"/>
 </div>
 
 - Godbreak: Terraria-like 2D sandbox survival game: [Creajeux](https://www.creajeux.fr/projet/godbreak/)
 <div align="center">
-    <img src="/docs/Godbreak.png" width="75%" height="75%" alt="Godbreak"/>
+    <img src="/docs/imgs/Godbreak.png" width="75%" height="75%" alt="Godbreak"/>
 </div>
 
 *(Creajeux is the school I'm attending, they post our games there too!)*
@@ -71,3 +71,5 @@ Again the framework was made when only one GameState was ever needed so this was
 
 Another thing I'd like to improve is to add a build system and to be honest I'm still learning CMake and I can't get it working without having to regenerate the solution everytime I add a file so I rather not use it for now.
 Also I'm planning on sharing this with people at my school that may use this so I don't want to share something that isn't straightfoward or has unnecessary kinks.
+
+*By the way, as of the time of writing this, this code is a little more than a year old so there may be mistakes/design flaws that I wouldn't make today.*
