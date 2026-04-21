@@ -56,7 +56,7 @@ So! Let's talk about what the framework actually has:
 You should be able to just clone this template, open the solution and hit compile.
 Every asset in the `Debug/Assets` folder will be copied to `Release/Assets` if you're running in Release mode.
 
-To start using the framework, you can look in the `docs` folder, I've provided a few samples on the important things to get you going!
+To start using the framework, you can look in the [docs](/docs) folder, I've provided a few samples on the important things to get you going!
 
 # Things to improve
 A few things can be improved I think, nothing that can stop you from making a game though.
