@@ -1,6 +1,8 @@
 # AssetManager
 A very useful piece of code that turns loading assets from a chore to a one liner!
-It can load assets of type: `sf::Texture`, `sf::Font`, `sf::SoundBuffer` and `sf::Music`.
+It can load assets of type: `sf::Texture`, `sf::Font`, `sf::SoundBuffer` and `sf::Music`.\
+If the asset hasn't been loaded before, it'll load it automatically.\
+If it has been loaded, it'll retrieve it from memory which only makes loading the asset "slow" the first time!
 
 # Sample
 ```c++

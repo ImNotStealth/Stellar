@@ -14,7 +14,14 @@ using namespace Stellar;
 
 int main()
 {
-	Game::Get().SetSettings({ "Stellar Game" });
+    WindowSettings settings;
+    settings.name = "Stellar Game";
+    settings.winSize = { 1920, 1080 };
+    settings.fpsLimit = 60;
+    settings.vsync = true;
+    settings.fullscreen = true;
+    settings.resizable = false;
+	Game::Get().SetSettings(settings);
 	Game::Get().SetState<StateMainMenu>();
 	Game::Get().Run();
 	return 0;
@@ -33,7 +40,7 @@ Stellar::Game::Get().SetState<StateSandbox>(Args); // 'Args' being your GameStat
 ```
 
 > [!WARNING]
-> Do note that setting the GameState destroys your current one, so if you are running code after have set your GameState, your game might crash as your previous GameState has now been destroyed.\
+> Do note that setting the GameState destroys your current one, so if you are running code after having set your GameState, your game might crash as your previous GameState has now been destroyed.\
 > To fix this, just add a `return` statement after having set your GameState.
 
 Example:
@@ -68,7 +75,7 @@ if (button.isHovered)
 ```
 
 # SetStateAsync
-Using `SetState` will block the main thread until it's done loading, `SetStateAsync` will instead spin up a new thread and load the new GameState and only switch to it once it's done loading. This was added near the end of when I worked on the framework so I haven't had time to really test it but it doesn't seem to have the same restrictions as `SetState` with when to use it.
+Using `SetState` will block the main thread until it's done loading, `SetStateAsync` will instead spin up a new thread and load the new GameState and only switch to it once it's done loading. This was added near the end of when I worked on the framework so I haven't had time to really test it but it doesn't seem to have the same restrictions as `SetState` has with when/how to use it.
 ```c++
 Stellar::Game::Get().SetStateAsync<StateSandbox>(Args); // 'Args' being your GameState's constructor parameters if you have any
 ```

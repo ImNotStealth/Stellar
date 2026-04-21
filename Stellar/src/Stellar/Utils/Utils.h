@@ -1,4 +1,4 @@
-#ifndef STELLAR_UTILS_H
+﻿#ifndef STELLAR_UTILS_H
 #define STELLAR_UTILS_H
 
 #include "Stellar/Core/Common.h"
@@ -24,7 +24,6 @@ namespace Stellar {
 	
 		static sf::Sprite LoadSprite(const std::filesystem::path& _path, bool _isCentered);
 	};
-
 }
 
 #endif

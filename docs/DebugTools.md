@@ -51,7 +51,6 @@ void ToolTest::UpdateImGui(float _deltaTime)
 #include "Debug/ToolExample.h"
 #endif
 
-#include <Stellar/Render/GameSplash.h>
 #include "Menu/StateMainMenu.h"
 
 using namespace Stellar;

@@ -69,6 +69,8 @@ I already have an idea on how to manage this but I'm torn on if I should leave t
 GameStates have a small oversight which depending on how you use them could be quite annoying. You can only have one active at a time, it would've been better to use a stack of sorts where events propagate through them so you could have a debug layer, a UI layer, game layer etc.
 Again the framework was made when only one GameState was ever needed so this was never required.
 
+Settings are bit annoying to add and set, you have to add them in multiple areas and write multiple lines of code to set some settings. It'd be best to have functions to set the settings and call the necessarry code instead of having direct access to the variables.
+
 Another thing I'd like to improve is to add a build system and to be honest I'm still learning CMake and I can't get it working without having to regenerate the solution everytime I add a file so I rather not use it for now.
 Also I'm planning on sharing this with people at my school that may use this so I don't want to share something that isn't straightfoward or has unnecessary kinks.
 
