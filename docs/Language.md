@@ -2,13 +2,13 @@
 Allows you to localize your game by reading a text file (this one's important!)
 
 # Samples
-[Here](../x64/Debug/Game/Assets/Lang/) you'll find two files, `EN_US.lang` and `FR_FR.lang`.\
+[Here](../x64/Debug/Game/Assets/Lang/) you'll find two files, `en_US.lang` and `fr_FR.lang`.\
 Take a look in there and follow the format. For example, if you want to add a sword, you'd add:
 ```
-In FR_FR.lang
+In fr_FR.lang
 weapons.sword=Épée
 
-In EN_US.lang
+In en_US.lang
 weapons.sword=Sword
 ```
 
