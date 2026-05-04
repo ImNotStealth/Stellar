@@ -79,7 +79,7 @@ Using `SetState` will block the main thread until it's done loading, `SetStateAs
 ```c++
 Stellar::Game::Get().SetStateAsync<StateSandbox>(Args); // 'Args' being your GameState's constructor parameters if you have any
 ```
-You can use this to create a loading screen if you're loading a ton of assets or generating a world. We've actually done this with Godbreak and a sample can be found here. TODO: Add loading sample 
+You can use this to create a loading screen if you're loading a ton of assets or generating a world. We've actually done this with Godbreak and a sample can be found [here](https://github.com/ImNotStealth/Stellar-Example-UI/blob/master/Game/src/Menu/StateLoading.cpp).
 
 # GetState
 If you need to retrieve your current GameState, you can do so with:
