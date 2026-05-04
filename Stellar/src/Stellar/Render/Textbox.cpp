@@ -11,7 +11,7 @@ namespace Stellar
 		Textbox textbox;
 		textbox.placeholder = Language::Get().Translate(_langPlaceholderKey);
 		textbox.label = Text::Create(_fontPath, textbox.placeholder, _pos, _fontSize);
-		textbox.spriteBackground.setTexture(AssetManager::GetTexture("UI/SelectCreateWorld/Input_Background.png"));
+		textbox.spriteBackground.setTexture(AssetManager::GetTexture("UI/Input_Background.png"));
 		textbox.spriteBackground.setScale({ (float)_fontSize / 25.f, (float)_fontSize / 25.f });
 		textbox.showBackground = _bg;
 		return textbox;
@@ -22,7 +22,7 @@ namespace Stellar
 		Textbox textbox;
 		textbox.placeholder = Language::Get().Translate(_langPlaceholderKey);
 		textbox.label = Text::CreateCentered(_fontPath, textbox.placeholder, _pos, _fontSize);
-		textbox.spriteBackground.setTexture(AssetManager::GetTexture("UI/SelectCreateWorld/Input_Background.png"));
+		textbox.spriteBackground.setTexture(AssetManager::GetTexture("UI/Input_Background.png"));
 		textbox.spriteBackground.setScale({ (float)_fontSize / 25.f, (float)_fontSize / 25.f });
 		textbox.showBackground = _bg;
 		return textbox;
