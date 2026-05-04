@@ -58,6 +58,9 @@ Every asset in the `Debug/Assets` folder will be copied to `Release/Assets` if y
 
 To start using the framework, you can look in the [docs](/docs) folder, I've provided a few samples on the important things to get you going!
 
+# Samples
+[Stellar-Example-UI](https://github.com/ImNotStealth/Stellar-Example-UI), a UI sample of our last game Godbreak (includes a async loading screen sample)
+
 # Things to improve
 A few things can be improved I think, nothing that can stop you from making a game though.
 
@@ -68,6 +71,8 @@ I already have an idea on how to manage this but I'm torn on if I should leave t
 
 GameStates have a small oversight which depending on how you use them could be quite annoying. You can only have one active at a time, it would've been better to use a stack of sorts where events propagate through them so you could have a debug layer, a UI layer, game layer etc.
 Again the framework was made when only one GameState was ever needed so this was never required.
+
+Precompiled headers! I vaguely heard about them before making the framework but didn't know how to use them quite yet (I know a lot more now!). They can speed up compilation which if you're adding a ton of .h/.cpp files can sometimes take a few minutes.
 
 Settings are bit annoying to add and set, you have to add them in multiple areas and write multiple lines of code to set some settings. It'd be best to have functions to set the settings and call the necessarry code instead of having direct access to the variables.
 
